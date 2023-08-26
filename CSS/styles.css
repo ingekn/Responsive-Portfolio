@@ -18,7 +18,7 @@
   font-size: 96px;
   font-weight: bold;
 }
-.homepage h2 {
+.homepage header h2 {
   font-size: 36px;
   font-family: var(--default-font-family);
   font-weight: bold;
@@ -28,15 +28,89 @@
   margin-top: 20px;
 }
 p {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.5;
-  text-align: center;
 }
-.btn-warning {
+.btn-branding {
   padding: 15px 30px;
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
   color: white;
   background: var(--branding-color);
+}
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+img {
+  max-width: 636px;
+  max-height: 636px;
+  display: block;
+  margin: 0 auto;
+}
+.homepage main h2 {
+  text-align: left;
+  font-size: 58px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  line-height: 85px;
+  margin-bottom: 20px;
+}
+.homepage main p {
+  text-align: left;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  line-height: 30px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+.btn-project {
+  padding: 15px 30px;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 18px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  display: block;
+  margin: 0 auto;
+  max-width: max-content;
+}
+.btn-project:hover {
+  color: white;
+  background: var(--branding-color);
+}
+@media (max-width: 1200px) {
+  .homepage main h2 {
+    text-align: center;
+  }
+  .homepage main p {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  main .project-description {
+    padding: 0;
+  }
+  .homepage main p {
+    text-align: center;
+  }
+  .homepage main h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .homepage header h1 {
+    font-size: 50px;
+  }
+  .homepage header h2 {
+    font-size: 30px;
+  }
+  .homepage header {
+    padding: 30px;
+  }
+  .btn-project {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
