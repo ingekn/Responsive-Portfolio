@@ -86,44 +86,44 @@ p {
   background: var(--branding-color);
 }
 
-.about-page header {
+.content-page header {
   text-align: center;
   color: black;
 }
 
-.about-page h1 {
+.content-page h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
   line-height: 80px;
   text-align: left;
 }
-.about-page header h2 {
+.content-page header h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
   line-height: 1.5px;
   text-align: left;
 }
-.about-page header p {
+.content-page header p {
   font-size: 16px;
   font-family: var(--default-font-family);
 
   line-height: 30px;
   text-align: left;
 }
-.about-page .btn-branding {
+.content-page .btn-branding {
   display: block;
   margin: 0;
   max-width: 250px;
 }
-.about-page .container {
+.content-page .container {
   padding: 160px 20px;
 }
-.about-page .about-section-content {
+.content-page .content {
   margin: 40px;
 }
-.about-page img {
+.content-page img {
   max-height: 450px;
   margin: 7px auto;
 }
@@ -134,16 +134,16 @@ p {
   .homepage main p {
     text-align: center;
   }
-  .about-page header h1,
-  .about-page header h2,
-  .about-page header p {
+  .content-page header h1,
+  .content-page header h2,
+  .content-page header p {
     text-align: center;
     line-height: normal;
   }
-  .about-page header h1 {
+  .content-page header h1 {
     font-size: 40px;
   }
-  .about-page .btn-branding {
+  .content-page .btn-branding {
     margin: 0 auto;
   }
 }
@@ -175,15 +175,17 @@ p {
     font-size: 14px;
   }
 
-  .about-page header h2 {
+  .content-page header h2 {
     font-size: 18px;
     text-align: center;
   }
-  .about-page header p {
+  .content-page header p {
     font-size: 14px;
     text-align: center;
   }
-  .about-page .container {
+  .content-page .container {
     padding: 0px;
   }
+}
+.content h3 {
 }
