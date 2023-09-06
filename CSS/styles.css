@@ -170,6 +170,13 @@
     max-width: 460px;
     max-height: 460px;
   }
+  .homepage main h2 {
+    font-size: 40px;
+  }
+  .homepage main p {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }
 @media (max-width: 900px) {
   main .projects {
