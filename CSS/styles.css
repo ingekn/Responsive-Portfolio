@@ -147,6 +147,7 @@
 .personal-img img {
   max-height: 450px;
   margin: 7px auto;
+  border-radius: 30%;
 }
 @media (max-width: 1200px) {
   .homepage main h2,
