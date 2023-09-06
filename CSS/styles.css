@@ -219,6 +219,14 @@
     line-height: 40px;
   }
 }
+@media (max-width: 1000px) {
+  footer .contact-box {
+    padding: 30px;
+  }
+  footer .contact-box h4 {
+    font-size: 30px;
+  }
+}
 h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -272,11 +280,24 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-@media (max-width: 1000px) {
-  footer .contact-box {
-    padding: 30px;
-  }
-  footer .contact-box h4 {
-    font-size: 30px;
-  }
+.my-projects a {
+  text-decoration: none;
+  color: black;
+}
+.my-projects a:hover {
+  color: var(--branding-color);
+}
+
+.content-page .my-projects img {
+  max-height: 500px;
+  display: block;
+  margin: 0px auto;
+  transition: all 80ms ease-in-out;
+}
+.content-page .my-projects img:hover {
+  /* filter: contrast(115%); */
+
+  filter: contrast(115%) drop-shadow(3px 3px var(--secondary-color))
+    drop-shadow(-3px -3px var(--branding-color));
+  transform: scale(1.03);
 }
