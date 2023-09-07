@@ -272,9 +272,6 @@ footer .social-links a:hover {
   }
 }
 @media (max-width: 900px) {
-  main .projects {
-    padding: 0;
-  }
   .homepage main p {
     /* text-align: center; */
     font-size: 13px;
@@ -312,6 +309,9 @@ footer .social-links a:hover {
   }
 }
 @media (max-width: 1010px) {
+  main .projects {
+    padding: 0;
+  }
   .content-page .container {
     padding: 20px 5px;
   }
