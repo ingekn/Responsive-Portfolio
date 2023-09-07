@@ -165,6 +165,15 @@ h3 {
   font-weight: normal;
   font-family: var(--default-font-family);
 }
+.content a {
+  /* color: var(--branding-color); */
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+.content a:hover {
+  color: var(--secondary-color);
+  color: var(--branding-color);
+}
 footer {
   margin: 60px 0;
 }
