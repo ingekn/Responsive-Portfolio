@@ -11,6 +11,7 @@
   height: 70px;
   width: 70px;
   margin: 10px 10px 10px 80px;
+  border: 1px solid var(--secondary-color);
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -149,6 +150,7 @@
   max-height: 450px;
   margin: 7px auto;
   border-radius: 30%;
+  border: 1px solid var(--secondary-color);
 }
 
 h3 {
