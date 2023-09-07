@@ -62,6 +62,7 @@
   color: white;
   background: var(--branding-color);
   text-decoration: none;
+  font-family: var(--default-font-family);
 }
 .btn-branding:hover {
   color: var(--branding-color);
@@ -133,7 +134,7 @@
   line-height: 30px;
   text-align: left;
 }
-.content-page .btn-branding {
+.content-page .btn-project {
   display: block;
   margin: 0 35px;
   max-width: 250px;
@@ -172,9 +173,11 @@ footer .contact-box {
   background-color: var(--primary-color);
   padding: 40px 120px;
   border-radius: 10px;
+  font-family: var(--default-font-family);
 }
 footer .contact-box p {
   margin: 0;
+  font-size: 16px;
 }
 footer .email-link {
   text-decoration: none;
@@ -218,12 +221,17 @@ footer .social-links a:hover {
   transition: all 80ms ease-in-out;
 }
 .content-page .my-projects img:hover {
-  /* filter: contrast(115%); */
-
   filter: contrast(115%) drop-shadow(3px 3px var(--secondary-color))
     drop-shadow(-3px -3px var(--branding-color));
   transform: scale(1.03);
 }
+.woman-coding img {
+  max-height: 450px;
+  margin: 7px auto;
+  border-radius: 40%;
+  border: 1px solid var(--secondary-color);
+}
+
 @media (max-width: 1200px) {
   .homepage main h2,
   .homepage main p {
@@ -302,7 +310,7 @@ footer .social-links a:hover {
     text-align: center;
   }
 
-  .content-page .btn-branding {
+  .content-page .btn-project {
     margin: 50px auto;
   }
 
