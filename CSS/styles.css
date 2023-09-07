@@ -267,8 +267,8 @@ footer .social-links a:hover {
     padding: 0;
   }
   .homepage main p {
-    text-align: center;
-    font-size: 14px;
+    /* text-align: center; */
+    font-size: 13px;
   }
   .homepage main h2 {
     font-size: 40px;
