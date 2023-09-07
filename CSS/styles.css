@@ -135,11 +135,11 @@
 }
 .content-page .btn-branding {
   display: block;
-  margin: 0;
+  margin: 0 35px;
   max-width: 250px;
 }
 .content-page .container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .content-page .content {
   margin: 40px;
@@ -149,85 +149,7 @@
   margin: 7px auto;
   border-radius: 30%;
 }
-@media (max-width: 1200px) {
-  .homepage main h2,
-  .homepage main p {
-    text-align: center;
-  }
 
-  .content-page header h1,
-  .content-page header h2,
-  .content-page header p {
-    text-align: center;
-    line-height: normal;
-  }
-  .content-page header h1 {
-    font-size: 40px;
-  }
-  .content-page .btn-branding {
-    margin: 0 auto;
-  }
-  .homepage main img {
-    max-width: 460px;
-    max-height: 460px;
-  }
-  .homepage main h2 {
-    font-size: 40px;
-  }
-  .homepage main p {
-    font-size: 14px;
-    line-height: 25px;
-  }
-}
-@media (max-width: 900px) {
-  main .projects {
-    padding: 0;
-  }
-  .homepage main p {
-    text-align: center;
-    font-size: 14px;
-  }
-  .homepage main h2 {
-    font-size: 40px;
-    text-align: center;
-  }
-  .homepage header h1 {
-    font-size: 50px;
-  }
-  .homepage header h2 {
-    font-size: 30px;
-  }
-  .homepage header {
-    padding: 30px;
-  }
-  .btn-project {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-  .description-p {
-    font-size: 16px;
-  }
-  .content-page header h2 {
-    font-size: 18px;
-    text-align: center;
-  }
-  .content-page .container {
-    padding: 0px;
-  }
-  .content-page h1 {
-    font-size: 44px;
-
-    line-height: 40px;
-  }
-}
-@media (max-width: 1000px) {
-  footer .contact-box {
-    padding: 30px;
-  }
-  footer .contact-box h4 {
-    font-size: 30px;
-  }
-}
 h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -301,4 +223,93 @@ footer .social-links a:hover {
   filter: contrast(115%) drop-shadow(3px 3px var(--secondary-color))
     drop-shadow(-3px -3px var(--branding-color));
   transform: scale(1.03);
+}
+@media (max-width: 1200px) {
+  .homepage main h2,
+  .homepage main p {
+    text-align: center;
+  }
+
+  .content-page header h1,
+  .content-page header h2,
+  .content-page header p {
+    /* text-align: center; */
+    line-height: normal;
+  }
+  .content-page header h1 {
+    font-size: 40px;
+  }
+
+  .homepage main img {
+    max-width: 460px;
+    max-height: 460px;
+  }
+  .homepage main h2 {
+    font-size: 40px;
+  }
+  .homepage main p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 900px) {
+  main .projects {
+    padding: 0;
+  }
+  .homepage main p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .homepage main h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .homepage header h1 {
+    font-size: 50px;
+  }
+  .homepage header h2 {
+    font-size: 30px;
+  }
+  .homepage header {
+    padding: 30px;
+  }
+  .description-p {
+    font-size: 16px;
+  }
+  .content-page h1 {
+    font-size: 44px;
+    line-height: 40px;
+  }
+  .content-page header h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .content-page header p {
+    font-size: 14px;
+  }
+  .content-page {
+    max-width: 630px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1010px) {
+  .content-page .container {
+    padding: 20px 5px;
+  }
+  .content-page header h1,
+  .content-page header h2,
+  .content-page header p {
+    text-align: center;
+  }
+
+  .content-page .btn-branding {
+    margin: 50px auto;
+  }
+
+  footer .contact-box h4 {
+    font-size: 30px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
 }
