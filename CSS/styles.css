@@ -29,7 +29,7 @@
 .homepage header {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px;
+  padding: 100px 20px;
   line-height: 1.5px;
   font-family: var(--heading-font-family);
   color: black;
