@@ -74,7 +74,7 @@
   max-width: 560px;
   max-height: 560px;
   display: block;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .homepage main h2 {
   text-align: left;
@@ -91,7 +91,7 @@
   line-height: 30px;
 }
 .projects {
-  padding: 60px 60px;
+  padding: 60px 40px 70px 40px;
 }
 .btn-project {
   padding: 15px 30px;
@@ -244,15 +244,13 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 1200px) {
-  .homepage main h2,
-  .homepage main p {
+  .homepage main h2 {
     text-align: center;
   }
 
   .content-page header h1,
   .content-page header h2,
   .content-page header p {
-    /* text-align: center; */
     line-height: normal;
   }
   .content-page header h1 {
@@ -271,9 +269,36 @@ footer .social-links a:hover {
     line-height: 25px;
   }
 }
+@media (max-width: 1024px) {
+  main .projects {
+    padding: 30px 20px 45px 20px;
+  }
+  .content-page .container {
+    padding: 20px 5px;
+  }
+  .content-page header h1,
+  .content-page header h2,
+  .content-page header p {
+    text-align: center;
+  }
+
+  .content-page .btn-project {
+    margin: 50px auto;
+  }
+
+  footer .contact-box h4 {
+    font-size: 30px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+}
 @media (max-width: 900px) {
+  main .projects {
+    padding: 10px 20px 10px 20px;
+  }
   .homepage main p {
-    /* text-align: center; */
+    text-align: left;
     font-size: 13px;
   }
   .homepage main h2 {
@@ -307,28 +332,7 @@ footer .social-links a:hover {
     max-width: 630px;
     margin: 0 auto;
   }
-}
-@media (max-width: 1010px) {
-  main .projects {
-    padding: 0;
-  }
-  .content-page .container {
-    padding: 20px 5px;
-  }
-  .content-page header h1,
-  .content-page header h2,
-  .content-page header p {
-    text-align: center;
-  }
-
-  .content-page .btn-project {
-    margin: 50px auto;
-  }
-
-  footer .contact-box h4 {
-    font-size: 30px;
-  }
-  footer .contact-box {
-    padding: 30px;
+  .content-page .content {
+    margin: 20px;
   }
 }
