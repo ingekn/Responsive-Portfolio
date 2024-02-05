@@ -242,7 +242,9 @@ footer .social-links a:hover {
   border-radius: 40%;
   border: 1px solid var(--secondary-color);
 }
-
+.contact-links {
+  margin: 40px 0px;
+}
 @media (max-width: 1200px) {
   .homepage main h2 {
     text-align: center;
@@ -334,5 +336,8 @@ footer .social-links a:hover {
   }
   .content-page .content {
     margin: 20px;
+  }
+  .contact-links {
+    margin: 10px 0px;
   }
 }
